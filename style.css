@@ -1,0 +1,86 @@
+body{
+    background-color: lightgrey;
+    font-family: sans-serif;
+    font-size: 1em;
+}
+
+div{
+    display: block;
+}
+
+h2{
+    font-size: 2rem;
+    text-align: center;
+   
+   padding-top: 12px;
+    
+}
+.container{
+    background-color: white;
+    width: 30%;
+    height: 280px;
+    border-radius: 10px;
+    margin-left: 35%;
+    margin-top: 10%;
+    padding-top: 1px;
+}
+
+
+
+p{
+position: sticky;
+border-radius: 70px;
+
+}
+
+input[type="email"]{
+    box-sizing: border-box;
+    margin-left: 8%;
+}
+
+input[type="password"]{
+    box-sizing: border-box;
+    margin-left: 8%;
+}
+input[type="submit"]{
+    box-sizing: border-box;
+   margin-left: 25%; 
+   
+
+}
+#create-acc{
+    background-color: #eeedf1;
+    color: #8a8b8e;
+    font-size: 20px;
+    width: 100%;
+    padding: 10px 0;
+    border-radius: 0 0 4px 4px;
+    text-align: center;
+
+}
+
+#email , #password {
+    box-sizing: border-box;
+    display: block;
+    width: 85%;
+    height: 30px;
+    
+}
+
+#login{
+    height:30px;
+    width: 50%;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+   cursor: pointer;
+    
+   
+}
+
+#login:hover{
+    background-color: rgb(65, 195, 218);
+    transform: scale(1.05);
+}
+
+
+
+
